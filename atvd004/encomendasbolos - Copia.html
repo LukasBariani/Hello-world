@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encomenda</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        table{
+            border: 1px solid black;
+        }
+        td{
+            border: 1px solid black;
+        }
+        input{
+            border-radius: 8px;
+        }
+        textarea{
+            border-radius: 8px;
+        }
+        header{
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 8px;
+            color: aliceblue;
+        }
+        a{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pães Doces e Bolos</h1>
+        <a href="file:///C:/Users/lukas/OneDrive/Documentos/Meus%20projetos/Hellow-world/htmlatvd04.html">Voltar a pagina Principal</a>
+
+        <h2>Encomendar bolo</h2>
+    </header>
+    
+            <form action="" method="get">
+                <div>
+                    <p>
+                        <label for="inome">Nome</label>
+                        <input type="text" placeholder="informe seu nome" id="inome" maxlength="35"></p>
+                    <p>
+                        <label for="iddd">DDD</label>
+                        <input type="tel" placeholder="DDD" id="iddd" maxlength="2"></p>
+                    <p>
+                        <label for="itel">Telefone</label>
+                        <input type="tel" placeholder="Tinforme seu telefone" id="itel" maxlength="10"></p>
+                </div>
+                <br>
+                        <div>
+                <h3>Bolos</h3>
+                <table>
+                    <tr>
+                        <td><img src="images/Bolo01.png" alt="" width="200px"></td>
+                        <td><img src="images/Bolo02.png" alt="" width="200px"></td>
+                        <td><img src="images/Bolo03.png" alt="" width="200px"></td>
+                    </tr>
+                    <tr>
+                        <td>Chocolate</td>
+                        <td>Frutas</td>
+                        <td>Misto</td>
+                    </tr>
+                </table>
+                        </div>
+                        <br>
+                        <div>
+                <form action="" method="get">
+                    <label for="" >Sabores</label>
+                        <select name="" id="">
+                            <option value="">Chocolate</option>
+                            <option value="">Frutas</option>
+                            <option value="">Misto</option>
+                        </select>
+                    
+                <label for="itipo">Tipo</label>
+                <label for="">
+                    <input type="radio" name="tipo" value="Decorado" id="itipo">Simples
+                </label>
+                <label for="">
+                    <input type="radio" name="tipo" value="Decorado">Decorado
+                </label>
+
+                                            
+                            <p><label for="kg">Tamanho</label><input type="number" placeholder="Kg" id="kg"></p>
+                            <p><label for="cb">Diet?</label><input type="checkbox" placeholder="Kg" id="cb"></p>
+                            
+                    <p>Observações:</p>
+                    <textarea name="sal" id="" cols="80" rows="3" placeholder="Digite suas informações aqui"></textarea>
+
+                    <br>
+
+                    <input type="submit" placeholder="Enviar">
+                    <input type="reset" placeholder="Limpar">
+                    
+                </body>
+                </html>
+            </form>
