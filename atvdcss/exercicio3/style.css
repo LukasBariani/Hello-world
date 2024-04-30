@@ -13,4 +13,13 @@ body{
 }
 .div1{
     background-color: #fff99f;
+    color: navy;
+}
+.div2{
+    background-color: black;
+    color: #ffff;
+}
+.div3{
+    background-color: chartreuse;
+    color: black;
 }

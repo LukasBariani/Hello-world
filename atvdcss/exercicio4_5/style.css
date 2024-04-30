@@ -1,0 +1,28 @@
+body{
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.hr1{
+    border-style: dashed;
+    color: red;
+}
+.div1{
+    border: solid;
+    border-color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+}
+.t2{
+    color: yellow;
+}
+.div2{
+    background-color: black;
+    font-family: monospace;
+    border: solid;
+    padding: 20px;
+    margin: 20px;
+}
+.hr2{
+    color: #33ffff;
+}
