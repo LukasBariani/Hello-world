@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.amarelo{
+    background-color: #fff99f;
+}
+.azul{
+    background-color: #66ccff;
+}
+.verde{
+    background-color: #99ff66;
+}
