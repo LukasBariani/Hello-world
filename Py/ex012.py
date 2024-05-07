@@ -1,4 +1,3 @@
 sal = float(input('Qual seu salário? '))
-aum = (sal/100) * 15
-salf = aum + sal
-print('Seu salário, com aumento, é de {} reais'.format(salf))
+salf = sal - (sal*15/100)
+print('Seu salário de {} reais, com aumento de 15%, sera de {} reais'.format(sal, salf))
