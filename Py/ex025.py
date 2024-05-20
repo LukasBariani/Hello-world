@@ -1,0 +1,8 @@
+num = input('Digite um numero: ')
+numesp = ' '.join(num)
+numsep = numesp.split()
+print(numsep)
+print(numsep[0])
+print(numsep[1])
+print(numsep[2])
+print(numsep[3])

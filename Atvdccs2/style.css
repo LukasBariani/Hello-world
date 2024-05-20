@@ -1,0 +1,99 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+main{
+    background-color: maroon;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 10%;
+    align-items: center;
+}
+aside{
+    background-image: url(Capas/vinho.jpg);
+    background-size: cover;
+    width: 25%;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+h1{
+    color: whitesmoke;
+    font-style: italic;
+    border: 2px dotted mistyrose;
+}
+h1:hover{
+    background-color: crimson;
+    color: lightpink;
+    border-color: mistyrose;
+}
+h3{
+    color: whitesmoke;
+}
+main h3{
+    background-image: url(Capas/vinho.jpg);
+}
+h3 main:hover{
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
+    color: indianred;
+}
+aside h3{
+    color: maroon;
+    background-image: url(Capas/fundo.jpg);
+}
+li{
+    color: lightgray;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: left;
+}
+span{
+    text-decoration: underline;
+    color: gold;
+}
+table{
+    margin: auto;
+}
+td{
+    border: 3px dashed indianred;
+}
+img{
+    width: 115px;
+}
+span img{
+    width: 24px;
+}
+ul{
+    align-items: center;
+}
+main h3:hover{
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
+    color: indianred;
+    border: 5px double indianred;
+}
+img:hover{
+    transform: rotate(-3deg);
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+    border: 5px double gold;
+}
+img:not(:hover){
+    transform: rotate(0deg);
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+li:hover{
+    transform: rotate(-3deg);
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+    border: 5px double gold;
+}
+a{
+    color: aliceblue;
+}
