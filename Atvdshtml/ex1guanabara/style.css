@@ -1,0 +1,18 @@
+#img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}  
+.sla{
+    float: left;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+
+}
+.bat{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 5px;
+}
